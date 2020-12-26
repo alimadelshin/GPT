@@ -1,9 +1,6 @@
 import torch
-
 import numpy as np
-
 from torch.utils.data import Dataset
-
 
 
 class CustomDataset(Dataset):
@@ -18,7 +15,6 @@ class CustomDataset(Dataset):
     
     def __len__(self):
         return self.len
-
 
 
 def get_samples(encoder, samples):
